@@ -11,10 +11,40 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_gravity="center"
-        android:text="Conoce tu Futuro"
+        android:text="@string/conoce_tu_futuro"
         android:textColor="#fa8072"
-        android:textSize="25sp"
+        android:textSize="30sp"
         android:textStyle="bold|italic"
+        android:layout_margin="40dp"
+    />
+
+    <EditText
+        android:id="@+id/question"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gavity="center"
+        android:hint="Escribe tu Mensaje"
+        android:inputType="textShortMessage"
+        android:textSize="24sp"
+     />
+
+    <ImageButtom
+        android:id="@+id/btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/magic-ball.jpg"
+     />
+
+    <TextView
+        android:id="@+id/respuestavista"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gavity="center"
+        android:textSize="26sp"
+        android:textStyle="bold"
+        android:textColor="33F3FF"
+        android:text="..."
+        android:layout_margin="60dp"
 
     />
 

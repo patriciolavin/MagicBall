@@ -16,36 +16,36 @@
         android:textSize="30sp"
         android:textStyle="bold|italic"
         android:layout_margin="40dp"
-    />
+        />
 
     <EditText
         android:id="@+id/question"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_gavity="center"
-        android:hint="Escribe tu Mensaje"
-        android:inputType="textShortMessage"
+        android:layout_gravity="center"
         android:textSize="24sp"
-     />
+        android:hint="@string/escribe_tu_mensaje"
+        android:inputType="textShortMessage"
+         />
 
-    <ImageButtom
+    <ImageButton
         android:id="@+id/btn"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:src="@drawable/magic-ball.jpg"
-     />
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:layout_gravity="center"
+        android:layout_margin="40dp"
+        android:src="@drawable/magicball" />
 
     <TextView
-        android:id="@+id/respuestavista"
+        android:id="@+id/respuestaVista"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_gavity="center"
+        android:layout_gravity="center"
         android:textSize="26sp"
         android:textStyle="bold"
         android:textColor="33F3FF"
         android:text="..."
-        android:layout_margin="60dp"
+        android:layout_marginBottom="60dp" />
 
-    />
 
 </LinearLayout>

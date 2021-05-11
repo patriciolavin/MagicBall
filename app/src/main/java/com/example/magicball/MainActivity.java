@@ -41,7 +41,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
 
                 int color = Color.argb(255, random.nextInt(256), random.nextInt(256), random.nextInt(256));
                 layout.setBackgroundColor(color);
-            }
+        }
         });*/
 
 
@@ -54,11 +54,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         //proceso
         ball.setOnClickListener(this);
         Toast.makeText(MainActivity.this, "Consulta tu Suerte", Toast.LENGTH_SHORT).show();
-
-
     }
-
-
 
 
     @Override
@@ -70,8 +66,5 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
                     respuesta.setText(respuestaArray[rand]);
             }
         }
-
-
-
 }
 

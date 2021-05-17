@@ -55,7 +55,8 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         ball.setOnClickListener(this);
         Toast.makeText(MainActivity.this, "Consulta tu Suerte", Toast.LENGTH_SHORT).show();
 
-    } // fin de protected void onCreate(Bundle savedInstanceState)
+    }
+    // fin de protected void onCreate(Bundle savedInstanceState)
 
 
     //función de cambio dinámico y aleatorio (random) del fondo en las zonas definidas
@@ -75,7 +76,8 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
                 }
             });
         }
-    } // fin de private class MyTimer
+    }
+    // fin de private class MyTimer
 
 
     @Override
@@ -88,5 +90,6 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
                     respuesta.setText(respuestaArray[rand]);
             }
         }
-} // fin de la public class MainActivity
+}
+// fin de la public class MainActivity
 
